@@ -64,7 +64,17 @@ Avant d'exécuter le script, assurez-vous d'avoir installé les dépendances sui
 
 ## Avertissement Légal
 
-L'utilisation de ce script pour récupérer des informations à partir de l'API de Darkibox est à vos propres risques. L'auteur de ce projet ne peut être tenu responsable des conséquences de l'utilisation de ce script, y compris, mais sans s'y limiter, les violations des conditions d'utilisation de Darkibox ou d'autres lois applicables. Veuillez vous assurer que vous avez le droit d'accéder et d'utiliser les données que vous récupérez.
+L'utilisation de ce script pour récupérer des informations à partir de l'API de Darkibox est à vos propres risques. L'auteur de ce projet ne peut être tenu responsable des conséquences de l'utilisation de ce script, y compris, mais sans s'y limiter, les violations des conditions d'utilisation de Darkibox ou d'autres lois applicables.
+
+### Clause de Non-Responsabilité
+
+1. **Responsabilité de l'Utilisateur** : En utilisant ce script, vous reconnaissez que vous le faites à vos propres risques. L'auteur ne garantit pas que l'utilisation de ce script est légale ou conforme aux conditions d'utilisation de Darkibox ou d'autres services.
+
+2. **Données Scrappées** : Ce script peut récupérer des données qui sont protégées par des droits d'auteur ou d'autres lois. L'utilisation de ces données sans autorisation peut constituer une violation des droits d'auteur. L'auteur ne peut être tenu responsable de l'utilisation illégale des données récupérées.
+
+3. **Site Illégal** : Ce script interagit principalement avec DarkiWorld, qui génère des comptes premium non légaux pour accéder à des liens de vidéos hébergés sur Darkibox. Si DarkiWorld est considéré comme illégal, interagir avec celui-ci peut comporter des risques. L'auteur ne soutient pas l'utilisation de services illégaux et ne peut être tenu responsable des conséquences de l'utilisation de ce script.
+
+4. **Aide à la Détection de Contenu Illégal** : Si vous trouvez du contenu illégal, il est recommandé de le signaler aux autorités compétentes plutôt que de scraper le site vous-même.
 
 ## Exemple de Cookies
 
