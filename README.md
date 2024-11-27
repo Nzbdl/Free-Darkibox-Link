@@ -59,8 +59,12 @@ Avant d'exécuter le script, assurez-vous d'avoir installé les dépendances sui
 
 3. **Résultats**
 
-   - Le fichier `response_data.json` contiendra la réponse JSON complète de l'API.
+   - Le fichier `response_data.json` contiendra la réponse JSON complète de l'API, qui peut inclure des informations scrappées.
    - Le fichier `darkibox-link.txt` contiendra le lien vidéo ou un message indiquant qu'aucun lien n'a été trouvé.
+
+## Avertissement Légal
+
+L'utilisation de ce script pour récupérer des informations à partir de l'API de Darkibox est à vos propres risques. L'auteur de ce projet ne peut être tenu responsable des conséquences de l'utilisation de ce script, y compris, mais sans s'y limiter, les violations des conditions d'utilisation de Darkibox ou d'autres lois applicables. Veuillez vous assurer que vous avez le droit d'accéder et d'utiliser les données que vous récupérez.
 
 ## Exemple de Cookies
 
