@@ -2,7 +2,7 @@
 
 # Récupérateur de Lien Vidéo Darkibox
 
-Ce projet permet de récupérer des liens vidéo à partir de l'API de Darkibox en utilisant un identifiant vidéo. Le script enregistre la réponse JSON dans un fichier et extrait le lien vidéo dans un autre fichier texte.
+Ce projet permet de récupérer des liens vidéo à partir de l'API de Darkiworld en utilisant un identifiant vidéo. Le script enregistre la réponse JSON dans un fichier et extrait le lien vidéo dans un autre fichier texte.
 
 ## Dépendances
 
