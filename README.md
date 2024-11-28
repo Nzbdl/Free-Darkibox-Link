@@ -64,7 +64,7 @@ Avant d'exécuter le script, assurez-vous d'avoir installé les dépendances sui
 
 ## Avertissement Légal
 
-L'utilisation de ce script pour récupérer des informations à partir de l'API de Darkibox est à vos propres risques. L'auteur de ce projet ne peut être tenu responsable des conséquences de l'utilisation de ce script, y compris, mais sans s'y limiter, les violations des conditions d'utilisation de Darkibox ou d'autres lois applicables.
+L'utilisation de ce script pour récupérer des informations à partir de l'API de Darkiworld est à vos propres risques. L'auteur de ce projet ne peut être tenu responsable des conséquences de l'utilisation de ce script, y compris, mais sans s'y limiter, les violations des conditions d'utilisation de Darkiworld ou d'autres lois applicables.
 
 ### Clause de Non-Responsabilité
 
