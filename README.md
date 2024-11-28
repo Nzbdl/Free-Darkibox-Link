@@ -48,7 +48,7 @@ Avant d'exécuter le script, assurez-vous d'avoir installé les dépendances sui
 
 2. **Exécuter le Script**
 
-   Avant d'exécuter le script, assurez-vous de modifier les cookies dans le script pour qu'ils correspondent à votre session Darkibox.
+   Avant d'exécuter le script, assurez-vous de modifier les cookies dans le script pour qu'ils correspondent à votre session Darkiworld.
 
    Exécutez le script avec l'identifiant vidéo souhaité :
    ```bash
@@ -86,4 +86,4 @@ Si vous avez des questions ou des problèmes, n'hésitez pas à ouvrir une issue
 
 ---
 
-**Note** : Ce projet est uniquement à des fins éducatives. Assurez-vous de respecter les conditions d'utilisation de l'API Darkibox.
+**Note** : Ce projet est uniquement à des fins éducatives. Assurez-vous de respecter les conditions d'utilisation de l'API Darkiworld.
