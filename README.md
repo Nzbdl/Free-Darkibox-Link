@@ -78,7 +78,7 @@ L'utilisation de ce script pour récupérer des informations à partir de l'API 
 
 ## Exemple de Cookies
 
-Assurez-vous de remplacer les cookies dans le script par ceux de votre session Darkibox. Vous pouvez les obtenir en utilisant les outils de développement de votre navigateur.
+Assurez-vous de remplacer les cookies dans le script par ceux de votre session Darkiworld. Vous pouvez les obtenir en utilisant les outils de développement de votre navigateur.
 
 ## Aide
 
