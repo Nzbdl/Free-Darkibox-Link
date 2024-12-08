@@ -1,66 +1,39 @@
 # Free-Darkiworld-Link
 
-# Récupérateur de Lien Vidéo Darkibox
+## Récupérateur de Lien Vidéo Darkibox
 
 Ce projet permet de récupérer des liens vidéo à partir de l'API de Darkiworld en utilisant un identifiant vidéo. Le script enregistre la réponse JSON dans un fichier et extrait le lien vidéo dans un autre fichier texte.
 
+## Prérequis
+
+Avant d'exécuter le fichier `.exe`, assurez-vous d'avoir :
+
+- Un compte valide sur Darkiworld.
+- Les informations d'identification nécessaires (adresse e-mail et mot de passe).
+
 ## Dépendances
 
-Avant d'exécuter le script, assurez-vous d'avoir installé les dépendances suivantes :
+### Exécution du Fichier Exécutable
 
-- **Python 3.x**
-- **Bibliothèque `requests`**
+Le fichier `recuperer_url_darkibox.exe` a été créé de manière à ce que vous puissiez l'exécuter directement sans avoir besoin d'installer Python ou d'autres dépendances sur votre machine. Cela signifie que vous pouvez simplement télécharger le fichier `.exe` et l'exécuter sans configuration supplémentaire.
 
-### Installation des Dépendances
+1. **Téléchargez le Fichier Exécutable** :
+   - Assurez-vous d'avoir le fichier `recuperer_url_darkibox.exe` sur votre ordinateur.
 
-1. **Installer Python**
+2. **Double-cliquez sur le Fichier** :
+   - Localisez le fichier `recuperer_url_darkibox.exe` dans l'explorateur de fichiers.
+   - Double-cliquez sur le fichier pour l'exécuter.
 
-   #### Sur Windows
+3. **Interface Graphique** :
+   - Une fenêtre s'ouvrira avec des champs pour entrer votre adresse e-mail, votre mot de passe, l'identifiant de la vidéo, votre session et votre token.
+   - Suivez les instructions à l'écran pour vous connecter et récupérer le lien vidéo.
 
-   - Téléchargez l'installateur de Python depuis le site officiel : [Python Downloads](https://www.python.org/downloads/windows/)
-   - Exécutez l'installateur et assurez-vous de cocher l'option **"Add Python to PATH"**.
-   - Suivez les instructions à l'écran pour terminer l'installation.
+## Modifications Apportées au Script
 
-   #### Sur Linux
-
-   - Ouvrez un terminal et exécutez la commande suivante pour installer Python :
-     ```bash
-     sudo apt update
-     sudo apt install python3 python3-pip
-     ```
-
-2. **Installer la Bibliothèque `requests`**
-
-   Une fois Python installé, vous pouvez installer la bibliothèque `requests` en utilisant `pip`. Exécutez la commande suivante dans votre terminal ou invite de commandes :
-   ```bash
-   pip install requests
-   ```
-
-## Utilisation
-
-1. **Cloner le Dépôt**
-
-   Clonez ce dépôt sur votre machine locale :
-   ```bash
-   git clone https://github.com/Nzbdl/free-darkibox-link.git
-   cd free-darkibox-link
-   ```
-
-2. **Exécuter le Script**
-
-   Avant d'exécuter le script, assurez-vous de modifier les cookies dans le script pour qu'ils correspondent à votre session Darkiworld.
-
-   Exécutez le script avec l'identifiant vidéo souhaité :
-   ```bash
-   python recuperer_url_darkibox.py <video_id>
-   ```
-
-   Remplacez `<video_id>` par l'identifiant de la vidéo que vous souhaitez récupérer.
-
-3. **Résultats**
-
-   - Le fichier `response_data.json` contiendra la réponse JSON complète de l'API, qui peut inclure des informations scrappées.
-   - Le fichier `darkibox-link.txt` contiendra le lien vidéo ou un message indiquant qu'aucun lien n'a été trouvé.
+- **Connexion avec GET** : Le script a été modifié pour utiliser une requête GET pour se connecter à Darkiworld, en envoyant les informations d'identification (email et mot de passe) dans l'URL.
+- **Gestion des Cookies** : Le script récupère les cookies nécessaires après la connexion pour les utiliser lors de la récupération des liens vidéo.
+- **Enregistrement des Erreurs** : Les erreurs de connexion et de récupération de lien sont enregistrées dans un fichier `error_log.txt` pour faciliter le débogage.
+- **Interface Utilisateur** : Une interface graphique a été créée à l'aide de Tkinter pour rendre l'application plus conviviale.
 
 ## Avertissement Légal
 
@@ -86,4 +59,14 @@ Si vous avez des questions ou des problèmes, n'hésitez pas à ouvrir une issue
 
 ---
 
+## Notes de Mise à Jour
+
+- **Version 1.0** : Lancement initial du projet avec des fonctionnalités de récupération de lien vidéo.
+- **Version 1.1** : Ajout de la gestion des erreurs et de l'enregistrement des logs d'erreur dans un fichier texte.
+- **Version 1.2** : Modification de la méthode de connexion pour utiliser une requête GET au lieu de POST, conformément aux exigences de l'API.
+
+---
+
 **Note** : Ce projet est uniquement à des fins éducatives. Assurez-vous de respecter les conditions d'utilisation de l'API Darkiworld.
+
+Merci d'utiliser ce projet à des fins éducatives !
